@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="triangle">
+        <attr format="color" name="main_color"/>
+        <attr format="color" name="text_color"/>
+        <attr format="enum" name="placement">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="center" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
